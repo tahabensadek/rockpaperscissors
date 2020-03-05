@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Spartan', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #293250
+}
+header {
+    background:#FFD55A;
+    color: #293250;
+    padding: 15px;
+    text-align:center;
+}
+
+.scoreboard {
+    border: 4px solid #FFD55A;
+    width: 400px;
+    margin: 50px auto;
+    text-align:center;
+    padding: 50px;
+    border-radius: 7px;
+    position:relative;
+}
+
+.player {
+    border-radius:2px;
+    border:2px solid #FFD55A;
+    padding:3px;
+}
+
+#user {
+    background-color: #6DD47E;
+    position:absolute;
+    top:60px;
+    left: -49px;
+    width:90px;
+}
+
+#computer {
+    background-color: #d46e6e;
+    position: absolute;
+    top:60px;
+    right:-49px;
+}
+
+span {
+    color: #FFD55A;
+    font-size: 34px;
+    font-weight: bold;
+    padding: 6px;
+}
+
+#user-score {
+    color:#6DD47E;
+}
+
+#computer-score {
+    color:#d46e6e;
+}
+
+.result {
+    color:#FFD55A;
+    text-align:center;
+    font-size: 28px;
+}
+
+.moves {
+    text-align:center;
+    padding: 40px;
+}
+.choice {
+    display: inline-block;
+    border: 2px solid #FFD55A;
+    border-radius: 50%;
+    padding: 10px;
+    margin:10px 30px;
+    transition:all 0.6s ease;
+}
+
+.msg {
+    text-align:center;
+    color:#FFD55A;
+}
+
+.choice:hover {
+    background-color:#6DD47E;
+    cursor:pointer;
+}
+
+
+
+
